@@ -30,14 +30,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
-
+  font-family: 'Helvetica, sans-serif';
 }
 
 h1,
