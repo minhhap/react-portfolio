@@ -236,7 +236,7 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
+  width: 40%;
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
