@@ -211,18 +211,16 @@ textarea {
 }
 
 .px-1 {
-  /* padding-right: var(--spacing-one); */
   padding-right: 10%;
   padding-left: var(--spacing-one);
   margin-top: 30px;
   font-size: 25px;
   justify-content: right;
-  display: flex;
 }
 
 .brand-term {
-  font-size: 50px;
-  margin-right: 680px;
+  font-size: 55px;
+  margin-right: 700px;
 }
 
 .px-2 {

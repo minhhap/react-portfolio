@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
+// import background from "../src/assets/cover/portfolio-bg.jpg"; HELP
 
 function Nav(props) {
   const {
@@ -15,21 +16,21 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
+    <header 
+      // style={{ backgroundImage: `url(${background})`}}  HELP
+      className="flex-row px-1">
       <h2>
         <a data-testid="link" className="brand-term" href="/">
           Lady Lazy Dev
         </a>
       </h2>
+
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (
             <li
@@ -48,6 +49,9 @@ function Nav(props) {
               </span>
             </li>
           ))}
+          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>Contact</span>
+          </li>
         </ul>
       </nav>
     </header>
