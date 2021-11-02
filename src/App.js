@@ -8,7 +8,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      description: 'Some of my projects',
     }
   ]);
 
@@ -26,14 +26,11 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-        {!contactSelected ? (
           <>
             <About></About>
             <Gallery currentCategory={currentCategory}></Gallery>
+            <ContactForm></ContactForm>
           </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
       </main>
     </div>
   );
