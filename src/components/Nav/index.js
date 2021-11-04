@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-// import background from "../src/assets/cover/portfolio-bg.jpg"; HELP
 
 function Nav(props) {
   const {
@@ -33,13 +32,13 @@ function Nav(props) {
             </a>
           </li>
           {categories.map((category) => (
-            <li
+            <li 
               className={`mx-1 ${
                 currentCategory.name === category.name && !contactSelected && 'navActive'
                 }`}
               key={category.name}
             >
-              <span
+              <span 
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
@@ -51,6 +50,11 @@ function Nav(props) {
           ))}
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
+          </li>
+          <li className="mx-2">
+            <a data-testid="about" href="#resume" onClick={() => setContactSelected(false)}>
+              Resume
+            </a>
           </li>
         </ul>
       </nav>
