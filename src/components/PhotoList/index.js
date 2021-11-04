@@ -9,17 +9,17 @@ const PhotoList = ({ category }) => {
     {
       name: 'Walk in the Park',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Deployed URL: https://minhhap.github.io/walk-in-the-park'
     },
     {
       name: 'Run Buddy',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Deployed URL: https://minhhap.github.io/run-buddy/',
     },
     {
       name: 'Pets Hot or Not',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Deployed URL: https://minhhap.github.io/portfolio/',
     },
     {
       name: 'Coming Soon',

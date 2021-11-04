@@ -159,14 +159,14 @@ nav  li {
 }
 
 textarea {
-	width: 630px;
+	width: 500px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
 
 #newbox {
-  width: 630px
+  width: 500px
 }
 
 .container {
@@ -219,12 +219,14 @@ textarea {
   padding-left: var(--spacing-one);
   margin-top: 30px;
   font-size: 25px;
-  justify-content: right;
+  justify-content: left;
 }
 
 .brand-term {
   font-size: 55px;
-  margin-right: 700px;
+  display: flex;
+  text-align: left;
+  margin-left: 30px;
 }
 
 .px-2 {
