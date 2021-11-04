@@ -7,8 +7,8 @@ Javascript
 HTML
 JXS
 
-GitHub Repo
+## GitHub Repo
 https://github.com/minhhap/react-portfolio
 
-Deployed Link
+## Deployed Link
 https://minhhap.github.io/react-portfolio/
