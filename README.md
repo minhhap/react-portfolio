@@ -2,10 +2,10 @@
 A single-page application portfolio built with React.
 
 ## Technologies
-React
-Javascript
-HTML
-JXS
+* React
+* Javascript
+* HTML
+* JXS
 
 ## GitHub Repo
 https://github.com/minhhap/react-portfolio
